@@ -1,0 +1,35 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+.padre{
+background-color: blue;
+border: 2px brown;
+margin-top: 2px;
+}
+
+.box{
+display: inline-block;
+background-color: green;
+width: 100px;
+height: 100px;
+}
+
+#uno{
+    background-color: aqua;
+}
+#dos{
+    background-color: rgb(212, 97, 20);
+    position: relative;/*posiciones cambia la posicion*/
+    top: 20px;
+}
+#tres{
+    background-color: yellow;
+
+}
+#cuatro{
+    background-color: slateblue;
+}
