@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    
+    display: flex;
+    flex-direction:column ;
+}
+
+.container__1{
+background-image: url(Paisaje.jpg);
+background-size: cover;
+background-position: center;
+height: 75vh;
+
+}
+article {
+    margin: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#boton{
+    background-color: transparent;
+}
+.perfil__contenedor{
+
+    margin: 10rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    
+}
+
+.container__2{
+    background-color: #1d1d31;
+    height: 75vh;
+
+}
+.container__3{
+    background-color: #25273e;
+    height: 75vh;
+}
+
+
+
+.main__nav--item{
+    margin-top: 10px; 
+    list-style: none;
+    padding-left: 0;
+}
+.main__nav--item{
+    display: inline-block;
+}
+.main__nav--item a{
+    color: black; 
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.main__nav--item a:hover{
+    color: red; 
+    font-size: 20px;
+}
+
+.main__nav--item a:active{
+    color: green;
+}

@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.3%;
+}
+.container{
+    background-color: violet;
+    height: 100vh;
+    width: 100vw;
+    font-size: 2rem;
+}
+.container__header{
+    background-color: aqua;
+    height: 30rem;
+}
+.container__header--cabecera{
+    background-color: blue;
+    height: 12rem;
+    display: flex;
+    gap: 2rem;
+}
+.container__header--cabecera article{
+    background-color: gold;
+    border-radius: 5rem;
+    width: 30rem;
+}
+.container__header--enlaces{
+    background-color: teal;
+    height: 8rem;
+}
